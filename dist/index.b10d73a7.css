@@ -1,0 +1,95 @@
+body {
+  background-color: #006a66;
+}
+
+body h1 {
+  color: #fffdd4;
+  text-align: center;
+}
+
+body .squarey {
+  height: 100px;
+  width: 100px;
+  background: #fffdd4;
+  border-radius: 20%;
+  padding: 3rem;
+  position: absolute;
+  top: 40%;
+  left: 44%;
+}
+
+body .squarey p {
+  font-size: 2rem;
+  transform: rotate(90deg);
+}
+
+body button.spinbtn {
+  color: #fffdd4;
+  background-color: #006a66;
+  border: 4px solid #fffdd4;
+  border-radius: 5px;
+  padding: 10px 30px;
+  position: absolute;
+  top: 85%;
+  left: 26%;
+}
+
+body .spin {
+  transition: all 5s;
+  transform: rotate(1080deg);
+}
+
+body button.bigbtn {
+  color: #fffdd4;
+  background-color: #006a66;
+  border: 4px solid #fffdd4;
+  border-radius: 5px;
+  padding: 10px 30px;
+  position: absolute;
+  top: 85%;
+  left: 38%;
+}
+
+body .big {
+  transition: all 1s;
+  transform: scale(1.5);
+}
+
+body button.smallbtn {
+  color: #fffdd4;
+  background-color: #006a66;
+  border: 4px solid #fffdd4;
+  border-radius: 5px;
+  padding: 10px 30px;
+  position: absolute;
+  top: 85%;
+  left: 52%;
+}
+
+body .small {
+  transition: all 1s;
+  transform: scale(.5);
+}
+
+body button.squishbtn {
+  color: #fffdd4;
+  background-color: #006a66;
+  border: 4px solid #fffdd4;
+  border-radius: 5px;
+  padding: 10px 30px;
+  position: absolute;
+  top: 85%;
+  left: 67%;
+}
+
+body .squish {
+  transition: all 1s;
+  transform: skew(80deg);
+}
+
+body button.spinbtn:hover, body button.bigbtn:hover, body button.smallbtn:hover, body button.squishbtn:hover {
+  color: #fff408;
+  border-color: #fff408;
+}
+
+/*# sourceMappingURL=index.b10d73a7.css.map */

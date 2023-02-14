@@ -1,0 +1,117 @@
+$colorOne: #006A66;
+$colorTwo: #FFFDD4;
+
+body {
+  background-color: $colorOne;
+  h1 {
+    color: $colorTwo;
+    text-align: center;
+  }
+
+  
+  .squarey {
+    position: absolute;
+    left: 44%;
+    top: 40%;
+    background: $colorTwo;
+    height: 100px;
+    padding: 3rem;
+    border-radius: 20%;
+    width: 100px;
+    p {font-size: 2rem;
+    transform: rotate(90deg)}
+  }
+
+  /* ----------------------- Make squarey spin -----------------------------  */
+
+  button.spinbtn {
+    position: absolute;
+    top: 85%;
+    left: 26%;
+    color: $colorTwo;
+    background-color: $colorOne;
+    border: 4px solid $colorTwo;
+    padding: 10px 30px;
+    border-radius: 5px;
+  }
+  
+
+    .spin {
+      transform: rotate(1080deg);
+      transition: 5s;
+    }
+
+     /* ----------------------- Make squarey big -----------------------------  */
+
+    button.bigbtn {
+      position: absolute;
+      top: 85%;
+      left: 38%;
+      color: $colorTwo;
+      background-color: $colorOne;
+      border: 4px solid $colorTwo;
+      padding: 10px 30px;
+      border-radius: 5px;
+    }
+
+    .big {
+      transform: scale(1.5);
+      transition: 1s;
+    }
+
+ /* ----------------------- Make squarey small -----------------------------  */
+    button.smallbtn {
+      position: absolute;
+      top: 85%;
+      left: 52%;
+      color: $colorTwo;
+      background-color: $colorOne;
+      border: 4px solid $colorTwo;
+      padding: 10px 30px;
+      border-radius: 5px;
+    }
+
+    .small {
+      transform: scale(.5);
+      transition: 1s;
+    }
+
+ /* ----------------------- Make squarey squish or skew -----------------------------  */
+    button.squishbtn {
+      position: absolute;
+      top: 85%;
+      left: 67%;
+      color: $colorTwo;
+      background-color: $colorOne;
+      border: 4px solid $colorTwo;
+      padding: 10px 30px;
+      border-radius: 5px;
+    }
+
+    .squish {
+      transform: skew(80deg);
+      transition: 1s;
+    }
+
+     /* ----------------------- button hovers -----------------------------  */
+    button.spinbtn:hover {
+      color: darken($color: $colorTwo, $amount: 40%);
+      border-color: darken($color: $colorTwo, $amount: 40%);
+    }
+
+    button.bigbtn:hover {
+      color: darken($color: $colorTwo, $amount: 40%);
+      border-color: darken($color: $colorTwo, $amount: 40%);
+    }
+
+    button.smallbtn:hover {
+      color: darken($color: $colorTwo, $amount: 40%);
+      border-color: darken($color: $colorTwo, $amount: 40%);
+    }
+
+    button.squishbtn:hover {
+      color: darken($color: $colorTwo, $amount: 40%);
+      border-color: darken($color: $colorTwo, $amount: 40%);
+    }
+
+}
